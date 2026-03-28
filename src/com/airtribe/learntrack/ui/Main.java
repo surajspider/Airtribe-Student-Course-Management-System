@@ -1,4 +1,4 @@
-package com.airtribe.learntrack;
+package com.airtribe.learntrack.ui;
 
 import com.airtribe.learntrack.constants.MenuOptions;
 import com.airtribe.learntrack.entity.*;

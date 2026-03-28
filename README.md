@@ -61,7 +61,7 @@ To review theoretical knowledge about JVM execution, read our [JVM Basics](docs/
 javac -d bin src/com/airtribe/learntrack/**/*.java src/com/airtribe/learntrack/*.java
 
 # 2. Run
-java -cp bin com.airtribe.learntrack.Main
+java -cp bin com.airtribe.learntrack.ui.Main
 ```
 
 ## Reflections & Learnings
