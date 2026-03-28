@@ -63,3 +63,7 @@ javac -d bin src/com/airtribe/learntrack/**/*.java src/com/airtribe/learntrack/*
 # 2. Run
 java -cp bin com.airtribe.learntrack.Main
 ```
+
+## Reflections & Learnings
+Building this application was a great way to solidify my Core Java concepts. While implementing `ArrayList`, I realized how much easier it is to handle dynamic data compared to standard arrays. I also grasped how `static` variables work perfectly for generating unique IDs (like `studentId`) across the whole application. 
+Looking forward to refactoring this with databases and file I/O as we progress in the cohort!
