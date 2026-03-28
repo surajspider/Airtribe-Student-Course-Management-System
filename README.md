@@ -1,6 +1,6 @@
 # LearnTrack - Student & Course Management System
 
-LearnTrack is a Core Java console-based application built to manage Students, Courses, and Enrollments. It leverages Object-Oriented Programming (OOP) principles, Encapsulation, Inheritance, and Java Collections (ArrayList).
+LearnTrack is a Core Java console based application built to manage Students, Courses, and Enrollments. It leverages Object Oriented Programming (OOP) principles, Encapsulation, Inheritance, and Java Collections (ArrayList).
 
 ## Features
 - **Student Management:** Add, search, view, and deactivate students.
