@@ -19,6 +19,7 @@ public class Main {
     private static Scanner scanner;
 
     public static void main(String[] args) {
+        // TODO: Replace these in-memory repositories with an actual Database (like MySQL) in later modules
         // Initialize dependencies
         StudentRepository studentRepository = new StudentRepository();
         CourseRepository courseRepository = new CourseRepository();
