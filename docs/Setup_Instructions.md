@@ -1,11 +1,11 @@
 # Setup Instructions
 
 ## Requirements
-- Java Development Kit (JDK) installed on your system.
+- Java Development Kit (JDK) installed on my system.
 - **JDK Version Used in this Project:** Java 25 LTS (build 25+37-LTS-3491)
 
 ## Hello World Execution Explanation
-Before building the full application, we verified the environment by running a simple "Hello World" program.
+Before building the full application, I verified the environment by running a simple "Hello World" program.
 1. **Writing the code:** Created a file `HelloWorld.java` with a standard `public static void main` method.
 2. **Compilation:** Running `javac HelloWorld.java` generates a `HelloWorld.class` file containing the platform-independent bytecode.
 3. **Execution:** Running `java HelloWorld` starts the JVM, loads the compiled class, reads the bytecode, and simply prints "Hello World" to the console.

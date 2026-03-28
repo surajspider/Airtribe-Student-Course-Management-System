@@ -43,17 +43,22 @@ classDiagram
         COMPLETED
         CANCELLED
     }
+    class Trainer {
+        -String specialization
+        +getDisplayName() String
+    }
     
     Person <|-- Student
+    Person <|-- Trainer
     Enrollment "1" *-- "1" EnrollmentStatus
 ```
 
 ## Setup Instructions
-Please view our detailed [Setup Instructions](docs/Setup_Instructions.md) to check your JDK and run the program.
+Please view my detailed [Setup Instructions](docs/Setup_Instructions.md) to check the JDK setup and run the program.
 
 ## Architecture Notes
-To read more about design choices (like ArrayList vs Arrays, use of `static`, and inheritance), please read our [Design Notes](docs/Design_Notes.md).
-To review theoretical knowledge about JVM execution, read our [JVM Basics](docs/JVM_Basics.md).
+To read more about my design choices (like ArrayList vs Arrays, use of `static`, and inheritance), please read my [Design Notes](docs/Design_Notes.md).
+To review my theoretical knowledge about JVM execution, read my answers in [JVM Basics](docs/JVM_Basics.md).
 
 ## How to Run
 ```bash
