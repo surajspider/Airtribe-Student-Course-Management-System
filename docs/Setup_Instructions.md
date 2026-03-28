@@ -33,5 +33,5 @@ Before building the full application, we verified the environment by running a s
    ```
 3. Run the application:
    ```bash
-   java -cp bin com.airtribe.learntrack.Main
+   java -cp bin com.airtribe.learntrack.ui.Main
    ```
