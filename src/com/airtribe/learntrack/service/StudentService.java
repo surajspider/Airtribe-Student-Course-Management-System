@@ -33,6 +33,22 @@ public class StudentService {
         return studentOpt.get();
     }
 
+    // Method Overloading Example 1: Update only the batch
+    public Student updateStudent(int id, String newBatch) throws EntityNotFoundException {
+        Student student = getStudentById(id);
+        student.setBatch(newBatch);
+        return student;
+    }
+
+    // Method Overloading Example 2: Update multiple fields
+    public Student updateStudent(int id, String firstName, String lastName, String batch) throws EntityNotFoundException {
+        Student student = getStudentById(id);
+        student.setFirstName(firstName);
+        student.setLastName(lastName);
+        student.setBatch(batch);
+        return student;
+    }
+
     public void deactivateStudent(int id) throws EntityNotFoundException {
         boolean success = studentRepository.deactivateStudent(id);
         if (!success) {
